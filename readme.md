@@ -3,7 +3,7 @@
 
 ### To view this as a PR, please visit the following link:
 
-
+https://github.com/thesickcynic/movie-ticketing-pr/pull/1/files
 
 ## Introduction
 This project implements API endpoints to allow a user to search for theaters in their city, find dates with available shows for a particular theater, and then view all showings for that theater for a particular day.
