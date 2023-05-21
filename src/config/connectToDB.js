@@ -1,6 +1,5 @@
 const Sequalize = require('sequelize');
 const dbConfig = require("./db.config");
-console.log(dbConfig);
 // Syntax for setting up a new connection 
 // Sequalize (database_name, user_name, password, {dialect: database, host: host})
 
@@ -19,7 +18,6 @@ const sequalize = new Sequalize(dbConfig.DB, dbConfig.USER, dbConfig.PASSWORD, {
 const connectToDB = async ()=>{
 	try{
 		await sequalize.authenticate();
-		await sequalize.sync();
         console.log("Successfully connected to the database.");
 	}
 	catch(error){
