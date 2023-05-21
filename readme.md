@@ -19,4 +19,4 @@ It is meant to support the following front end component.
 -   **GET /api/city/:cityid/theater/:theaterid/date/:yyyy-:mm-:dd**: Returns a list of showings for the selected theater and date, with details about the movies language, rating, subtitles, start times etc.
 
 ## ER Diagram
-[!ERDiagram](ERDiagram.png)
+![ERDiagram](ERDiagram.png)
