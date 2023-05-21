@@ -2,7 +2,8 @@ const express = require('express');
 const movieRoute = require('../src/routes/moviesRoute');
 const {connectToDB, sequalize} = require('../src/config/connectToDB');
 const db = require('../src/models/index.js');
-
+// const dotenv = require('dotenv').config({path: '../process.env'})
+console.log(require('dotenv').config());
 const app = express();
 const PORT = 3000;
 

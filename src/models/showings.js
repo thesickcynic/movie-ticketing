@@ -21,6 +21,7 @@ const Showing = Sequelize.define('Showing', {
 
 Showing.associate = function(models) {  
     Showing.belongsTo(models.Movie);
+    Showing.belongsTo(models.Theater);
 };
 
 module.exports = Showing

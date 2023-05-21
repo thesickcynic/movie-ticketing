@@ -1,8 +1,9 @@
+require('dotenv').config()
 module.exports = {
-    HOST: "localhost",
-    USER: "root",
-    PASSWORD: "airpockets",
-    DB: "moviedb",
+    HOST: process.env.SQLSERVERHOST,
+    USER: process.env.SQLSERVERUSER,
+    PASSWORD: process.env.SQLSERVERPASSWORD,
+    DB: process.env.DB,
     dialect: "mysql",
     pool: {
       max: 5,

@@ -15,6 +15,7 @@ const Theater = Sequelize.define('Theater', {
 
 Theater.associate = function(models) {  
     Theater.hasMany(models.Showing);
+    Theater.belongsTo(models.City);
 };
 
 module.exports = Theater

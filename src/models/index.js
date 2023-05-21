@@ -18,5 +18,5 @@ Object.keys(db).forEach(key => {
     }
 });
 console.log("Came here");
-// db.sequelize.sync({alter: true});
+db.sequelize.sync({alter: true});
 module.exports = db;
